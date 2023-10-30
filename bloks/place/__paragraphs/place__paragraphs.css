@@ -1,0 +1,17 @@
+.place__paragraphs{
+   margin: 0;
+   display: grid;
+   gap: 26px;
+   grid-template-rows: repeat(2, max-content);
+}
+@media screen and (max-width: 768px) {
+   .place__paragraphs{
+      gap: 25px;
+   }
+}
+@media screen and (max-width: 320px) {
+   .place__paragraphs{
+      width: calc(100% - 16px);
+      margin: 0 auto;
+   }
+}

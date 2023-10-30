@@ -1,0 +1,14 @@
+.menu__items{
+   margin: 0;
+   padding: 0;
+   display: flex;
+   list-style: none;
+}
+@media screen and (max-width: 320px) {
+   .menu__items{
+      display: grid;
+      grid-template-columns: max-content;
+      gap: 32px;
+      margin: 0 0 48px 0;
+   }
+}

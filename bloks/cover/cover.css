@@ -1,0 +1,25 @@
+.cover{
+   width: calc(100% - 48px*2);
+   min-height: 740px;
+   background-image: url(../../image/cover__background.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+   margin: 0 auto;
+   display: flex;
+}
+@media screen and (max-width: 1024px) {
+   .cover{
+      min-height: 640px;
+      width: 100%;
+   }
+}
+@media screen and (max-width: 768px) {
+   .cover{
+      min-height: 480px;
+   }
+}
+@media screen and (max-width: 320px) {
+   .cover{
+      min-height: 200px;
+   }
+}
